@@ -23,15 +23,11 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-
-
     private void initWidgets() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         mProfile = findViewById(R.id.my_profile);
         mAbout = findViewById(R.id.about_alc);
-
-
     }
 
     private void bindWidgets() {
@@ -50,11 +46,11 @@ public class MainActivity extends AppCompatActivity
         int id = v.getId();
         switch (id){
             case R.id.about_alc:{
-                sendToActivity(ProfileActivity.class);
+                sendToActivity(AboutActivity1.class);
                 break;
             }
             case R.id.my_profile:{
-                sendToActivity(AboutActivity.class);
+                sendToActivity(ProfileActivity.class);
                 break;
             }
             default:{

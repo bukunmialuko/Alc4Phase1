@@ -20,10 +20,11 @@ public class AboutActivity1 extends AppCompatActivity {
         initWidgets();
         bindWidgets();
         loadWebPage();
+
     }
 
     private void loadWebPage() {
-        String url = "https://andela.com/";
+        String url = "https://andela.com/alc/";
         mWebView.loadUrl(url);
     }
 

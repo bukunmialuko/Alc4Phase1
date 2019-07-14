@@ -5,4 +5,5 @@
     <string name="welcome">Welcome to ALC 4.0</string>
     <string name="about_alc">About Alc</string>
     <string name="my_profile">My Profile</string>
+    <string name="title_activity_about2">AboutActivity2</string>
 </resources>

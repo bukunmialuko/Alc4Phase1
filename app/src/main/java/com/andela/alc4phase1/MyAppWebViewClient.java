@@ -13,8 +13,6 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.agrawalsuneet.loaderspack.loaders.RingAndCircleLoader;
-
 public class MyAppWebViewClient extends WebViewClient {
 
     private Context mContext;

@@ -1,70 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_activity_b"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ProfileActivity"
-    tools:showIn="@layout/activity_profile"
-    android:id="@+id/content_activity_b"
-    android:orientation="vertical">
+    tools:showIn="@layout/activity_profile">
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp" />
-
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aluko Oluwabukunmi"/>
+        android:orientation="vertical">
 
 
-    <View
-        android:id="@+id/view"
-        android:background="@android:color/darker_gray"
-        android:layout_width="match_parent"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:layout_height="3px" />
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Track: Android"/>
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country: Nigeria"/>
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email: oluwabukunmi.aluko@gmail.com"/>
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone Number: 07033761964"/>
-
-    <TextView
-        android:layout_margin="8dp"
-        android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Slack username: "/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/my_profile_picture"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_pic" />
 
 
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:text="@string/my_name"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/track"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/country"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/email"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/phone_number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/slack_username"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

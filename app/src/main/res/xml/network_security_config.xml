@@ -3,8 +3,5 @@
     <domain-config>
         <domain includeSubdomains="true">andela.com/alc</domain>
         <domain includeSubdomains="true">andela.com</domain>
-        <trust-anchors>
-            <!--<certificates src="@raw/my_ca"/>-->
-        </trust-anchors>
     </domain-config>
 </network-security-config>

@@ -2,6 +2,7 @@
 
 package com.andela.alc4phase1;
 
+import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
@@ -11,14 +12,13 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 
-import com.agrawalsuneet.loaderspack.loaders.RingAndCircleLoader;
-
-public class AboutActivity1 extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
 
     private WebView mWebView;
     private ProgressBar ringAndCircleLoader;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +44,12 @@ public class AboutActivity1 extends AppCompatActivity {
 
         mWebView = findViewById(R.id.web_view);
 
-        ringAndCircleLoader =  findViewById(R.id.progress_bar);
+        ringAndCircleLoader = findViewById(R.id.progress_bar);
 
 
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private void bindWidgets() {
         WebSettings webSettings = mWebView.getSettings();

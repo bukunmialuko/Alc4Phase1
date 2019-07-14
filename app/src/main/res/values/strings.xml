@@ -6,4 +6,11 @@
     <string name="about_alc">About Alc</string>
     <string name="my_profile">My Profile</string>
     <string name="title_activity_about2">AboutActivity2</string>
+    <string name="slack_username">Slack username: @OBKM</string>
+    <string name="phone_number">Phone Number: 07033761964</string>
+    <string name="email">Email: oluwabukunmi.aluko@gmail.com</string>
+    <string name="country">Country: Nigeria</string>
+    <string name="track">Track: Android</string>
+    <string name="my_name">Aluko Oluwabukunmi</string>
+    <string name="my_profile_picture">My profile picture</string>
 </resources>

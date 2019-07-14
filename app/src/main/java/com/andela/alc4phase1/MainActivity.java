@@ -44,17 +44,17 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        switch (id){
-            case R.id.about_alc:{
-                sendToActivity(AboutActivity1.class);
+        switch (id) {
+            case R.id.about_alc: {
+                sendToActivity(AboutActivity.class);
                 break;
             }
-            case R.id.my_profile:{
+            case R.id.my_profile: {
                 sendToActivity(ProfileActivity.class);
                 break;
             }
-            default:{
-               break;
+            default: {
+                break;
             }
         }
     }

@@ -14,37 +14,54 @@
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 
+
     <TextView
         android:layout_margin="8dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aluko Oluwabukunmi"/>
+
+
+    <View
+        android:id="@+id/view"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_height="3px" />
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Track: Android"/>
 
     <TextView
         android:layout_margin="8dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Country: Nigeria"/>
 
     <TextView
         android:layout_margin="8dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email: oluwabukunmi.aluko@gmail.com"/>
 
     <TextView
         android:layout_margin="8dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phone Number: 07033761964"/>
 
     <TextView
         android:layout_margin="8dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Slack username: "/>
